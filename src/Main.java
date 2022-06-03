@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Хеллоу ворлд");
+        byte a = 127;
+        System.out.println(a);
+        System.out.println(a + 1);
     }
 }
