@@ -1,3 +1,4 @@
+//  Лаб раб1_Смирнов АН
 import java.util.Scanner;
 
 public class Laba1 {
