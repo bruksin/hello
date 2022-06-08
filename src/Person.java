@@ -1,7 +1,7 @@
-// Лабораторная работа 5_Классы_Объекты Смирнов АН
+// Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р° 5_РљР»Р°СЃСЃС‹_РћР±СЉРµРєС‚С‹ РЎРјРёСЂРЅРѕРІ РђРќ
 public class Person {
-    String fullName;        // имя
-    int age;            // возраст
+    String fullName;
+    int age;
     Person()
     {
         fullName = "Anonymous";
@@ -13,10 +13,10 @@ public class Person {
         age = a;
     }
     void move(){
-        System.out.printf("%s живет %d лет\n", fullName, age);
+        System.out.printf("%s Р¶РёРІРµС‚ %d Р»РµС‚\n", fullName, age);
     }
     void talk(){
-        System.out.printf("Такой-то  %s говорит  \n", fullName);
+        System.out.printf("РўР°РєРѕР№-С‚Рѕ  %s РіРѕРІРѕСЂРёС‚  \n", fullName);
     }
 
     public static void main (String[] args) {
