@@ -1,4 +1,4 @@
-//Лабораторная работа_Наследование
+//Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р°_РќР°СЃР»РµРґРѕРІР°РЅРёРµ
 public class Student {
     String firstName, lastName, group;
     double averageMark;
@@ -24,14 +24,14 @@ public class Student {
 
     public static void main (String[] args) {
         Student[] stud = new Student[5];
-        stud[0] = new Student("Вася", "Куралесов", "A", 5.0);
-        stud[1] = new Student("Петя", "Петров", "A", 5.0);
+        stud[0] = new Student("Р’Р°СЃСЏ", "РљСѓСЂР°Р»РµСЃРѕРІ", "A", 5.0);
+        stud[1] = new Student("РџРµС‚СЏ", "РџРµС‚СЂРѕРІ", "A", 5.0);
         stud[2] = new Student("Alice", "Smith", "A", 3.0);
-        stud[3] = new Aspirant("Bob", "Burbon", "B", 5.0, "Научный труд");
-        stud[4] = new Aspirant("Dick", "Big", "D", 4.0, "Диссертация");
+        stud[3] = new Aspirant("Bob", "Burbon", "B", 5.0, "РќР°СѓС‡РЅР°СЏ СЂР°Р±РѕС‚Р°");
+        stud[4] = new Aspirant("Dick", "Big", "D", 4.0, "Р”РёСЃСЃРµСЂС‚Р°С†РёСЏ");
 
         for (int i=0;i<5;i++) {
-            System.out.printf("Стипендия %s %s составляет %d рублей  \n", stud[i].firstName, stud[i].firstName, stud[i].getScholarship());
+            System.out.printf("РЎС‚РёРїРµРЅРґРёСЏ %s %s СЃРѕСЃС‚Р°РІР»СЏРµС‚ %d СЂСѓР±Р»РµР№  \n", stud[i].firstName, stud[i].firstName, stud[i].getScholarship());
         }
     }
 }

@@ -1,4 +1,4 @@
-//Лабораторная работа_Наследование
+//Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ СЂР°Р±РѕС‚Р°_РќР°СЃР»РµРґРѕРІР°РЅРёРµ
 public class Aspirant extends Student{
     String ScientificWork;
 
